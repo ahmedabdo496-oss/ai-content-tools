@@ -1,0 +1,20 @@
+{
+  "name": "ai-content-tools",
+  "version": "1.0.0",
+  "description": "منصة أدوات الذكاء الاصطناعي لصناع المحتوى العربي",
+  "private": true,
+  "workspaces": [
+    "apps/frontend",
+    "apps/backend"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "start": "turbo run start",
+    "lint": "turbo run lint",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.0"
+  }
+}
